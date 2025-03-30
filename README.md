@@ -3,7 +3,6 @@
 
 This project demonstrates a complete object detection pipeline using the YOLOv8 model. The pipeline includes custom dataset preparation, training using Google Colab, and real-time deployment on a Raspberry Pi 4 for edge inference.
 
----
 
 ##  Project Workflow
 
@@ -11,13 +10,12 @@ This project demonstrates a complete object detection pipeline using the YOLOv8 
 2. **Model Training** – Trained YOLOv8 on Google Colab using the Ultralytics library.
 3. **Model Deployment** – Deployed the trained `.pt` model on Raspberry Pi 4 for real-time detection using a USB camera.
 
----
 
 ##  Dataset Preparation
 
 - The dataset was labeled and exported in YOLOv8 format using [Roboflow](https://roboflow.com).
 - Download the dataset from:  
-  ➤ **[👉 Dataset Download Link (Insert your Roboflow export URL here)](https://app.roboflow.com/...)**
+  ➤ **[👉 Dataset Download Link ([https://app.roboflow.com/...](https://app.roboflow.com/ds/dl8fgjgQwI?key=1pBOly0My3))**
 
 **Labeling Tool Used:** Roboflow  
 **Classes:** (e.g., apple, banana, stop sign, etc.)  
@@ -74,9 +72,7 @@ sudo apt install python3-pip
 pip3 install torch torchvision opencv-python ultralytics
 ```
 
->  You may need to install `libatlas-base-dev` and other Pi-specific packages if OpenCV throws errors.
-
-###  Run the Model
+###  Run the Model by using following detect.py file
 
 ```python
 from ultralytics import YOLO
@@ -128,8 +124,8 @@ cv2.destroyAllWindows()
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - [Roboflow](https://roboflow.com/)
-- Google Colab
-- Raspberry Pi 4 Model B
+- [Google Colab](https://colab.research.google.com/)
+- [Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 - Python, OpenCV
 
 ---
@@ -138,7 +134,6 @@ cv2.destroyAllWindows()
 
 - [YOLOv8 Docs](https://docs.ultralytics.com/)
 - [Roboflow Labeling](https://docs.roboflow.com/)
-- [Deploying on Pi](https://blog.roboflow.com/deploy-yolov5-on-raspberry-pi/)
+- [Deploying on Pi](https://www.raspberrypi.com/documentation/)
 
----
 
