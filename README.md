@@ -1,4 +1,3 @@
-```markdown
 #  Real-Time Object Detection using YOLOv8 and Raspberry Pi 4
 
 This project demonstrates a complete object detection pipeline using the YOLOv8 model. The pipeline includes custom dataset preparation, training using Google Colab, and real-time deployment on a Raspberry Pi 4 for edge inference.
@@ -126,7 +125,6 @@ cv2.destroyAllWindows()
 - [Roboflow](https://roboflow.com/)
 - [Google Colab](https://colab.research.google.com/)
 - [Raspberry Pi 4 Model B](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
-- Python, OpenCV
 
 ---
 
