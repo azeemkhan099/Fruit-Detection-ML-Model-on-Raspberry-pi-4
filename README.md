@@ -17,7 +17,7 @@ This project demonstrates a complete object detection pipeline using the YOLOv8 
   ➤ **[👉 Dataset Download Link ([https://app.roboflow.com/...](https://app.roboflow.com/ds/dl8fgjgQwI?key=1pBOly0My3))**
 
 **Labeling Tool Used:** Roboflow  
-**Classes:** (e.g., apple, banana, stop sign, etc.)  
+**Classes:** (e.g., apple, banana, carrot, etc.)  
 **Format:** YOLOv8 (TXT files with normalized coordinates)
 
 ---
